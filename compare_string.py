@@ -1,5 +1,5 @@
 s1 = 'mary'
-s2 = 'army'
+s2 = 'armmy'
 output = ''
 if len(s1) == len(s2):
  for i in range(len(s1)):
@@ -13,4 +13,6 @@ if len(s1) == len(s2):
 
 if output == s1:
  print('both strings are anagrams')
+else:
+ print('both strings are not anagrams')
   
