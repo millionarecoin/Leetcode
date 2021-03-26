@@ -20,10 +20,10 @@ for i in range(len(num)):
   #print(a[j])
   result.append(a[j])
  if int(num[i]) == 1:
-  result.append(1)
+  #result.append(1)
  
  if int(num[i]) == 0:
-  result.append(0)
+  #result.append(0)
  
  
 print(result)
