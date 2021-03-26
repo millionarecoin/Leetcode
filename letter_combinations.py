@@ -7,7 +7,7 @@
 
 a = ['abc', 'def', 'ghi', 'jkl', 'mno', 'pqr', 'stu', 'vwx', 'yz']
 #num = input('input a number:  ')
-num = 23
+num = 203
 num = str(num)
 result = []
 output = ''
@@ -19,11 +19,6 @@ for i in range(len(num)):
   j = int(num[i]) - 2
   #print(a[j])
   result.append(a[j])
- if int(num[i]) == 1:
-  #result.append(1)
- 
- if int(num[i]) == 0:
-  #result.append(0)
  
  
 print(result)
